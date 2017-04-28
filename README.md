@@ -19,5 +19,5 @@ The test cases must be made in one of the following ways:
 Based on nose:    
 nosetests --with-smart-test /test_path
 
-Based on robot framework:
+Based on robot framework:    
 robot --listener smart_test.SmartTestListener /test_path
