@@ -1,7 +1,7 @@
 # SmartTest
 When developer changes the source code, automatically generated the list of test cases to be tested for this change.
 
-# Priciple
+# Basic Priciple
 To find the recommended tests, you must first run the full test for collecting the association between the changed source code and the impacted test cases.     
    
 Once the association created, we can store it in the file/database to facilitate the further query, and generated it every day in CI to keep the data up to date.
